@@ -1,4 +1,5 @@
-// src/componentes/perfilBoxeador.js
+import mostrarNuevaSesion from './mostrarNuevaSesion.js';
+
 export default function mostrarPerfilBoxeador() {
   const app = document.getElementById('app');
 
@@ -36,6 +37,7 @@ export default function mostrarPerfilBoxeador() {
       placeholder="Ej: Mejorar defensa y condición física"></textarea><br><br>
 
     <button id="bx-guardar">Guardar perfil</button>
+    <button id="bx-ir-sesion">Ir a registrar sesión</button>
 
     <hr>
     <h3>Resumen del perfil</h3>
@@ -43,6 +45,7 @@ export default function mostrarPerfilBoxeador() {
   `;
 
   const btnGuardar = document.getElementById('bx-guardar');
+  const btnIrSesion = document.getElementById('bx-ir-sesion');
   const resumen = document.getElementById('bx-resumen');
 
   btnGuardar.addEventListener('click', () => {
@@ -56,9 +59,12 @@ export default function mostrarPerfilBoxeador() {
       objetivo: document.getElementById('bx-objetivo').value
     };
 
-    // Aquí luego lo mandaremos a Firebase; por ahora solo mostramos
     console.log('Perfil boxeador:', perfil);
     resumen.textContent = JSON.stringify(perfil, null, 2);
-    alert('Perfil guardado (por ahora solo en memoria).');
+    alert('Perfil guardado (luego lo mandamos a Firebase).');
+  });
+
+  btnIrSesion.addEventListener('click', () => {
+    mostrarNuevaSesion();
   });
 }
