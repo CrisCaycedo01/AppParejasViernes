@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sombra básica",
+    "categoria": "técnica",
+    "nivel": "principiante",
+    "descripcion": "Trabajo de golpes al aire enfocándose en guardia alta, jab y recto."
+  },
+  {
+    "id": 2,
+    "nombre": "Sombra con desplazamientos",
+    "categoria": "técnica",
+    "nivel": "intermedio",
+    "descripcion": "Combinar golpes con pasos laterales, adelante y atrás, manteniendo equilibrio."
+  },
+  {
+    "id": 3,
+    "nombre": "Saco pesado – combinaciones 1–2",
+    "categoria": "potencia",
+    "nivel": "principiante",
+    "descripcion": "Jab–recto al saco concentrándose en girar la cadera y volver la guardia."
+  },
+  {
+    "id": 4,
+    "nombre": "Saco pesado – cuerpo y cabeza",
+    "categoria": "potencia",
+    "nivel": "intermedio",
+    "descripcion": "Combinaciones que alternan golpes al cuerpo y a la cabeza."
+  },
+  {
+    "id": 5,
+    "nombre": "Cuerda continua 3 minutos",
+    "categoria": "cardio",
+    "nivel": "principiante",
+    "descripcion": "Salto de cuerda sin parar para mejorar resistencia básica y ritmo."
+  },
+  {
+    "id": 6,
+    "nombre": "Cuerda con cambios de ritmo",
+    "categoria": "cardio",
+    "nivel": "intermedio",
+    "descripcion": "Alternar 20 segundos rápido y 40 segundos lento durante varios rounds."
+  },
+  {
+    "id": 7,
+    "nombre": "Manoplas – defensa y contraataque",
+    "categoria": "táctica",
+    "nivel": "intermedio",
+    "descripcion": "Entrenador marca golpes; se practica esquiva o bloqueo y contraataque inmediato."
+  },
+  {
+    "id": 8,
+    "nombre": "Manoplas – combinaciones memorizadas",
+    "categoria": "táctica",
+    "nivel": "principiante",
+    "descripcion": "Repetir combinaciones simples para fijar patrones de ataque básicos."
+  },
+  {
+    "id": 9,
+    "nombre": "Trabajo de defensa en pared",
+    "categoria": "defensa",
+    "nivel": "principiante",
+    "descripcion": "Boxeador con espalda a la pared practicando bloqueos, slips y guardia cerrada."
+  },
+  {
+    "id": 10,
+    "nombre": "Peek-a-boo – entradas cortas",
+    "categoria": "defensa",
+    "nivel": "intermedio",
+    "descripcion": "Práctica de mover la cabeza, cubrirse y entrar con combinaciones cortas."
+  },
+  {
+    "id": 11,
+    "nombre": "Circuito físico de boxeo",
+    "categoria": "condicionamiento",
+    "nivel": "intermedio",
+    "descripcion": "Rondas de flexiones, abdominales, sentadillas y burpees entre rounds de boxeo."
+  },
+  {
+    "id": 12,
+    "nombre": "Core para boxeadores",
+    "categoria": "condicionamiento",
+    "nivel": "principiante",
+    "descripcion": "Plancha, crunch, torsiones rusas para fortalecer abdomen y zona lumbar."
+  },
+  {
+    "id": 13,
+    "nombre": "Trabajo de juego de pies en escalera",
+    "categoria": "técnica",
+    "nivel": "intermedio",
+    "descripcion": "Usar escalera de agilidad para mejorar velocidad de pies y coordinación."
+  },
+  {
+    "id": 14,
+    "nombre": "Sparring técnico suave",
+    "categoria": "táctica",
+    "nivel": "avanzado",
+    "descripcion": "Sparring controlado, baja potencia, centrado en ver ángulos y distancia."
+  },
+  {
+    "id": 15,
+    "nombre": "Sparring de defensa únicamente",
+    "categoria": "defensa",
+    "nivel": "avanzado",
+    "descripcion": "Un boxeador solo defiende, el otro ataca suave para trabajar lectura y timing."
+  }
+]
